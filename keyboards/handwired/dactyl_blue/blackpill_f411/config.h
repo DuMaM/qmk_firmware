@@ -26,8 +26,9 @@
 #define BOOTMAGIC_LITE_ROW_RIGHT 7
 #define BOOTMAGIC_LITE_COLUMN_RIGHT 0
 
-
-#define SPLIT_HAND_MATRIX_GRID A10, A4
+// in col2row col is input, and row is output
+// #define SPLIT_HAND_MATRIX_GRID A10, A4
+#define SPLIT_HAND_PIN B10
 
 /* connection */
 #define SOFT_SERIAL_PIN           B6
