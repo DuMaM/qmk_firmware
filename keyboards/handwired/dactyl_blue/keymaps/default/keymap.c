@@ -20,8 +20,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_SLSH,KC_A   ,KC_S   ,KC_D   ,KC_F   ,KC_G   ,                          KC_H   ,KC_J   ,KC_K   ,KC_L   ,KC_LBRC,KC_RBRC,
     KC_LSFT,KC_Z   ,KC_X   ,KC_C   ,KC_V   ,KC_B   ,                          KC_N   ,KC_M   ,KC_COMM,KC_DOT ,KC_SCLN,KC_QUOT,
                     KC_TAB ,KC_ESC ,                                                          KC_HOME,KC_END ,
-                                    _KC_ENT,                                          _KC_SPC ,
-                                            KC_BSPC,KC_LGUI,          KC_RSFT,KC_DEL,
+                                    _KC_SPC,                                         _KC_ENT,
+                                            KC_LGUI,KC_BSPC,          KC_DEL ,KC_RSFT,
                                             KC_LCTL,KC_LALT,          KC_RALT,KC_RCTL
   ),
 
@@ -40,12 +40,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_CONF] = LAYOUT_6x6(
 
-    _______,_______,_______,_______,_______,_______,                          KC_MUTE,KC_VOLD,KC_VOLU,KC_MPRV,KC_MPLY,KC_MPLY,
-    _______,_______,_______,_______,_______,_______,                          _______,_______,_______,_______,_______,_______,
-    _______,_______,_______,KC_UP  ,_______,_______,                          _______,_______,_______,_______,_______,_______,
-    _______,_______,KC_LEFT,KC_DOWN,KC_RGHT,_______,                          _______,_______,_______,_______,_______,_______,
-    _______,_______,_______,_______,_______,_______,                          _______,_______,_______,_______,_______,_______,
-                    _______,_______,                                                          _______,_______,
+    KC_SLEP,KC_WAKE,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,                          KC_MUTE,KC_VOLD,KC_VOLU,KC_MPRV,KC_MPLY,KC_MPLY,
+    XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,                          XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,
+    XXXXXXX,XXXXXXX,XXXXXXX,KC_MS_U,XXXXXXX,XXXXXXX,                          XXXXXXX,XXXXXXX,KC_UP  ,XXXXXXX,XXXXXXX,XXXXXXX,
+    XXXXXXX,XXXXXXX,KC_MS_L,KC_MS_D,KC_MS_R,XXXXXXX,                          XXXXXXX,KC_LEFT,KC_DOWN,KC_RGHT,XXXXXXX,XXXXXXX,
+    XXXXXXX,XXXXXXX,KC_BTN1,KC_BTN3,KC_BTN2,XXXXXXX,                          XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,
+                    XXXXXXX,XXXXXXX,                                                          XXXXXXX,XXXXXXX,
                                     _______,                                          _______,
                                             _______,_______,          _______,_______,
                                             _______,_______,          _______,_______
